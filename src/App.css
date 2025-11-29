@@ -1,0 +1,146 @@
+.custom-nav {
+  background: linear-gradient(90deg, #0d0d0d, #121212, #1a1a1a);
+  padding: 15px 0;
+}
+
+.brand-dot {
+  color: #00d4ff;
+  font-size: 28px;
+}
+
+.nav-hover {
+  position: relative;
+  padding: 5px 0;
+  font-size: 16px;
+  transition: color .3s ease-in-out;
+}
+
+.nav-hover:hover {
+  color: #00d4ff !important;
+}
+
+.nav-hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background-color: #00d4ff;
+  transition: width .3s ease;
+}
+
+.nav-hover:hover::after {
+  width: 100%;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 90vh;
+  background: linear-gradient(135deg, #0a0a0a, #111, #1b1b1b);
+  color: white;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.highlight {
+  color: #00d4ff;
+}
+
+.hero-subtitle {
+  font-size: 22px;
+  letter-spacing: 1px;
+  opacity: 0.85;
+  margin-bottom: 15px;
+}
+
+.hero-desc {
+  font-size: 16px;
+  width: 60%;
+  margin: 0 auto 25px auto;
+  opacity: 0.75;
+}
+
+.hero-btn {
+  padding: 10px 25px;
+  font-size: 18px;
+  border-radius: 30px;
+  background: #00d4ff;
+  border: none;
+  color: black;
+  transition: transform .3s ease, background .3s ease;
+}
+
+.hero-btn:hover {
+  transform: scale(1.05);
+  background: #00b0d6;
+}
+
+/* about  */
+
+.about-section {
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+  color: white;
+}
+
+.section-title {
+  font-size: 38px;
+  font-weight: 800;
+  color: #ffca28;
+  letter-spacing: 1px;
+  text-shadow: 0px 0px 10px rgba(255, 202, 40, 0.8);
+}
+
+.about-box {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.15);
+}
+
+.about-img {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #ffca28;
+  box-shadow: 0px 0px 20px rgba(255, 202, 40, 0.7);
+  transition: transform 0.4s ease;
+}
+
+.about-img:hover {
+  transform: scale(1.08);
+}
+
+.about-text {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  color: #f3f3f3;
+}
+
+.text-highlight {
+  color: #00e0ff;
+  font-weight: bold;
+  text-shadow: 0 0 8px rgba(0, 224, 255, 0.7);
+}
+
+.about-btn {
+  padding: 12px 25px;
+  background: linear-gradient(90deg, #00e0ff, #ff9a8b);
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  color: black;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.about-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+}
