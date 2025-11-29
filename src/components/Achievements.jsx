@@ -3,7 +3,7 @@ import { achievements } from "../data";
 
 function Achievements() {
   return (
-    <section className="container py-5">
+    <section className="container py-5 ">
       <h2 className="fw-bold mb-4 text-primary">Achievements</h2>
       <div className="row g-3">
         {achievements.map(item => (

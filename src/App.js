@@ -7,19 +7,28 @@ import Projects from "./components/Projects";
 import Achievements from "./components/Achievements";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+
 function App() {
   return (
     <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Hero />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/achievements" element={<Achievements />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-       <Footer />
+      <div className="d-flex flex-column min-vh-100">
+
+        <Navbar />
+
+        <main className="flex-grow-1">
+          <Routes>
+            <Route path="/" element={<Hero />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/achievements" element={<Achievements />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+
+        <Footer />
+
+      </div>
     </Router>
   );
 }

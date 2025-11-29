@@ -11,7 +11,7 @@ function Navbar() {
   ];
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm" style={{height:"80px"}}>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm" >
       <div className="container">
         <Link className="navbar-brand fw-bold" to="/">Ankita</Link>
         <button

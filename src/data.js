@@ -4,26 +4,28 @@
 export const skills = [
   { id: 1, name: "HTML", color: "white"  },
   { id: 2, name: "CSS", color: "white" },
-  { id: 3, name: "JavaScript", color: "white" },
-  { id: 4, name: "React.js", color: "white" },
-  { id: 5, name: "Node.js", color: "white" },
-  { id: 6, name: "MongoDB", color: "white" },
-  { id: 6, name: "Git", color: "white" },
-  { id: 6, name: "Github", color: "white" }
+   { id: 3, name: "Bootstrap", color: "white" },
+  { id: 4, name: "JavaScript", color: "white" },
+  { id: 5, name: "React.js", color: "white" },
+  { id: 6, name: "Node.js", color: "white" },
+  { id: 7, name: "MongoDB", color: "white" },
+  { id: 8, name: "Git", color: "white" },
+  { id: 9, name: "Github", color: "white" },
+  
 ];
 
 // Projects
 export const projects = [
   {
     id: 1,
-    name: "Calculator App",
-    description: "A simple calculator built using React.js.",
+    name: "Calculator App ",
+    description: "Developed a JavaScript web app that combines arithmetic operations, geometric calculations, and unit conversions. Created an interactive and user-friendly interface for quick, accurate results.",
     link: "#"
   },
   {
     id: 2,
     name: "To-Do Application",
-    description: "Task management app with add, delete, and complete functionalities.",
+    description: " Developed A simple and responsive To-Do app using HTML,CSS,javascript that allows users to add, edit, delete, and manage daily tasks efficiently. Designed with a clean UI to help improve productivity.",
     link: "#"
   }
 ];
