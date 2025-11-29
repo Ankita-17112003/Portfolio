@@ -2,12 +2,14 @@
 
 // Skills
 export const skills = [
-  { id: 1, name: "HTML", color: "#E34F26" },
-  { id: 2, name: "CSS", color: "#1572B6" },
-  { id: 3, name: "JavaScript", color: "#F7DF1E" },
-  { id: 4, name: "React.js", color: "#61DAFB" },
-  { id: 5, name: "Node.js", color: "#339933" },
-  { id: 6, name: "MongoDB", color: "#4DB33D" }
+  { id: 1, name: "HTML", color: "white"  },
+  { id: 2, name: "CSS", color: "white" },
+  { id: 3, name: "JavaScript", color: "white" },
+  { id: 4, name: "React.js", color: "white" },
+  { id: 5, name: "Node.js", color: "white" },
+  { id: 6, name: "MongoDB", color: "white" },
+  { id: 6, name: "Git", color: "white" },
+  { id: 6, name: "Github", color: "white" }
 ];
 
 // Projects
